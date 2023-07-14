@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+    
+header{
+    height: 10vh;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+header h1{
+    font-family: 'Chela One', cursive;
+    font-size: 3rem;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+header nav ul a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+} 
+header nav ul a:hover{
+    text-decoration: underline;
+    text-decoration-color:rgb(0, 166, 255);
+    text-underline-offset: 6px;
+    color: #c1c1c1;
+} 
+main{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+main h1,main p , main div{
+   padding: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main h1{
+    font-size: 3rem;
+}
+main p{
+    font-size: 1rem;
+}
+#btn1{
+  background-color: #ffffff; /* Green */
+  border: none;
+  padding: 12px 35px;
+  font-size: 16px;
+}
+#btn2{
+  background-color: rgb(0, 166, 255);
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: white;
+}
+#btn1 a{
+    color: rgb(0, 166, 255);
+    text-decoration: none;
+}
+footer{
+    height: 10vh;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul li a{
+    color: rgb(239, 239, 239);
+    text-decoration: none;
+}
